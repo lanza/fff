@@ -19,6 +19,7 @@ get_os() {
 }
 
 setup_terminal() {
+
     # Setup the terminal for the TUI.
     # '\e[?1049h': Save current terminal screen.
     # '\e[?6h':    Restrict cursor to scrolling area.
